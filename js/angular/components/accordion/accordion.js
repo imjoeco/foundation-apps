@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('foundation.accordion', [])
+  angular.module('foundation.accordion', ['ngSanitize'])
     .controller('ZfAccordionController', zfAccordionController)
     .directive('zfAccordion', zfAccordion)
     .directive('zfAccordionItem', zfAccordionItem)
